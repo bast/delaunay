@@ -10,7 +10,7 @@ if _build_dir is None:
 else:
     _build_dir = os.path.join(_build_dir, 'lib')
 
-_include_dir = os.path.join(_this_path, '..')
+_include_dir = os.path.join(_this_path)
 
 _lib = get_lib_handle(
     ['-DDELAUNAY_API=', '-DCPP_INTERFACE_NOINCLUDE'],
