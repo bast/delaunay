@@ -18,13 +18,3 @@ add_library(
     delaunay.c
     delaunay.h
     )
-
-add_executable(
-    example.x
-    example.cpp
-    )
-
-target_link_libraries(
-    example.x
-    delaunay
-    )
